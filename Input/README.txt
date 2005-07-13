@@ -46,4 +46,17 @@ a format %04d in order to make clear the association between the string sent
 and the string received. End of lines are using ^M symbols.
 
 
+------------------------------------------------------------------------------
+polaris_stream_07_13_2005.txt
+
+Acquired by Hee-Su Kim at the ISIS center at Georgetown University on July 13 2005.
+
+It contains the log of the data stream between a igstk::AuroraTrackerTest 
+and a Polaris tracker.  
+The exchange is tagged using the strings "sent" and "recv" in order
+to make clear the direction of the dataflow. The entries are also numbered with
+a format %04d in order to make clear the association between the string sent
+and the string received. End of lines are using ^M symbols.
+
+
 
