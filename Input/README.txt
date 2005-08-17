@@ -60,3 +60,17 @@ and the string received. End of lines are using ^M symbols.
 
 
 
+------------------------------------------------------------------------------
+polaris_stream_07_27_2005.bin
+
+Acquired by Hee-Su Kim at the ISIS center at Georgetown University on July 27 2005.
+
+It contains the log of the data stream between a igstk::AuroraTrackerTest 
+and a Polaris tracker.  
+The exchange is tagged using the strings "command" and "receive" in order
+to make clear the direction of the dataflow. The entries are also numbered 
+in order to make clear the association between the string sent
+and the string received. This is in David's format (look at the WIKI page).
+
+
+
