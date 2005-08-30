@@ -72,5 +72,44 @@ to make clear the direction of the dataflow. The entries are also numbered
 in order to make clear the association between the string sent
 and the string received. This is in David's format (look at the WIKI page).
 
+------------------------------------------------------------------------------
+polaris_stream_08_17_2005.bin
+
+Acquired by David Gobbi at the Robarts Research Institute on Aug 17 2005.
+
+It contains the log of the data stream between igstkNDICommandInterpreterTest
+and a Polaris tracker.  
+
+------------------------------------------------------------------------------
+polaris_passive_pointer_1.rom
+
+This is a custom ROM file created for one of the passive Medtronic tools
+using NDI's rom creation software.  It is used as a dummy rom file by
+igstkNDICommandInterpreterTest so that passive strays can be tracked.
+
+------------------------------------------------------------------------------
+polaris_stream_08_18_2005.bin
+
+Acquired by David Gobbi at the Robarts Research Institute on Aug 18 2005.
+
+It contains the log of the data stream between igstkNDICommandInterpreterTest
+and a Polaris tracker.   Compared to polaris_stream_08_17_2005.bin, it
+increases coverage by adding more commands and incorporating a passive tool
+rom file.
+
+------------------------------------------------------------------------------
+polaris_stream_08_29_2005.bin
+
+Acquired by David Gobbi at the Robarts Research Institute on Aug 29 2005.
+
+It contains the log of the data stream between igstkNDICommandInterpreterTest
+and a Polaris tracker.   Compared to polaris_stream_08_18_2005.bin, it 
+increases coverage by adding more commands, by including some environmental
+infrared (a bright light shining on the POLARIS), and the unplugging of one
+of the active tools halfway through.
+
+------------------------------------------------------------------------------
+
+
 
 
