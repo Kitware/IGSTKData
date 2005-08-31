@@ -109,6 +109,15 @@ infrared (a bright light shining on the POLARIS), and the unplugging of one
 of the active tools halfway through.
 
 ------------------------------------------------------------------------------
+polaris_stream_08_31_2005.bin
+
+Acquired by David Gobbi at the Robarts Research Institute on Aug 31 2005.
+
+It contains the log of the data stream between igstkNDICommandInterpreterTest
+and a Polaris tracker.   Compared to polaris_stream_08_29_2005.bin, it 
+contains some extra PHINF commands with options specific to wired tools.
+
+------------------------------------------------------------------------------
 
 
 
