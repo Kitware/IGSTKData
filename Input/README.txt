@@ -118,7 +118,15 @@ and a Polaris tracker.   Compared to polaris_stream_08_29_2005.bin, it
 contains some extra PHINF commands with options specific to wired tools.
 
 ------------------------------------------------------------------------------
+polaris_stream_08_31_2005_NDICommandInterpreter.bin
 
+Acquired by Hee-Su Kim at the ISIS center at Georgetown University on July 27 2005.
 
+It contains the log of the data stream between a igstkNDICommandInterpreterTest 
+and a Polaris tracker. This file includes BX-commands and responses.
+The exchange is tagged using the strings "command" and "receive" in order
+to make clear the direction of the dataflow. The entries are also numbered 
+in order to make clear the association between the string sent
+and the string received. This is in David's format (look at the WIKI page).
 
-
+------------------------------------------------------------------------------
