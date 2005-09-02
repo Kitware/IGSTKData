@@ -2,3 +2,4 @@
 
 *.bin           -crlf
 *.dcm           -crlf
+*.raw           -crlf
