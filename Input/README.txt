@@ -130,3 +130,14 @@ in order to make clear the association between the string sent
 and the string received. This is in David's format (look at the WIKI page).
 
 ------------------------------------------------------------------------------
+polaris_stream_NDICommandInterpreterStress.bin
+
+Constructed from polaris_stream_08_31_2005.bin, with additions and changes
+inserted to provide coverage for some exceptional situations.  The following
+changes were done:
+- IRCHK returns environmental infrared coords for both cameras
+- line 64 contains garbage data (which should be caught by CRC check)
+- line 65 is missing a char (should be caught by CRC check)
+- line 66 is missing a newline (should be caught by CRC check)
+- line 67 is missing carriage return (should result in simulated timeout)
+
