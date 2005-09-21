@@ -8,5 +8,5 @@ CenterOfRotation = 0 0 0
 ElementSpacing = 0.671875 0.671875 5
 DimSize = 512 512 5
 AnatomicalOrientation = ???
-ElementType = MET_USHORT
+ElementType = MET_SHORT
 ElementDataFile = E000192_CT.raw
