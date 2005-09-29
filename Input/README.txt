@@ -141,3 +141,19 @@ changes were done:
 - line 66 is missing a newline (should be caught by CRC check)
 - line 67 is missing carriage return (should result in simulated timeout)
 
+------------------------------------------------------------------------------
+aurora_stream_09_28_2005.txt
+
+Acquired by Hee-Su Kim at the ISIS center at Georgetown University on Sep 28 2005.
+
+It contains the log of the data stream between a igstkAuroraTrackerTest 
+and a Aurora tracker.   Compared to polaris_stream_07_27_2005.txt, it
+contains requests and responses for loading a SROM file.
+
+------------------------------------------------------------------------------
+5D.ROM
+
+Acquired by James Zhang at the ISIS center at Georgetown University on Sep 28 2005.
+
+It's a SROM file for Aurora tracker tools.
+------------------------------------------------------------------------------
