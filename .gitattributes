@@ -2,4 +2,6 @@
 
 *.ROM           -crlf
 *.bin           -crlf
+*.dcm           -crlf
+*.raw           -crlf
 *.rom           -crlf
