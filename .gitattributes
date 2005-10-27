@@ -1,6 +1,4 @@
 .git*            export-ignore
 
-*.bin           -crlf
 *.dcm           -crlf
 *.raw           -crlf
-*.rom           -crlf
