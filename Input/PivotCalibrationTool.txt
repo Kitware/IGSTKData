@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<IGSTKFile type="ToolCalibration" version="0.1">
+  <Creation date="20050824" time="070907.0705" method="PivotCalibration" />
+  <Tool type="Pointer" manufacturer="Traxtal" partNumber="023-X" serialNumber="200501268" />
+  <Transform type="Rigid3D">
+    <ParameterNames>
+      translation_x translation_y translation_z
+      quaternion_x quaternion_y quaternion_z quaternion_w
+    </ParameterNames>
+    <ParameterValues>
+      5.0 2.0 3.0
+      9.7467943448089631 -0.20519567041703082 0.9233805168766388 0.30779350562554625
+    </ParameterValues>
+    <ErrorParameterNames>
+      rms
+    </ErrorParameterNames>
+    <ErrorParameterValues>
+      0.187876234
+    </ErrorParameterValues>
+  </Transform>
+  <CRC32>
+    4f6a3b2d
+  </CRC32>
+</IGSTKFile>
