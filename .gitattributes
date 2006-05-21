@@ -1,4 +1,5 @@
 .git*            export-ignore
 
 *.dcm           -crlf
+*.png           -crlf
 *.raw           -crlf
