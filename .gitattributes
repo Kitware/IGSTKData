@@ -1,5 +1,6 @@
 .git*            export-ignore
 
+*.calib         -crlf
 *.dcm           -crlf
 *.png           -crlf
 *.raw           -crlf
