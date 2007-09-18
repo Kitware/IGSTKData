@@ -4,3 +4,4 @@
 *.dcm           -crlf
 *.png           -crlf
 *.raw           -crlf
+*.rom           -crlf
