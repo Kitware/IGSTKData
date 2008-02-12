@@ -2,6 +2,7 @@
 
 *.ROM           -crlf
 *.bin           -crlf
+*.calib         -crlf
 *.dcm           -crlf
 *.png           -crlf
 *.raw           -crlf
