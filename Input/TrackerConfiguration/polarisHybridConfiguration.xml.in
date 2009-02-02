@@ -20,14 +20,14 @@
 
     <tool>
       <name> bayonet probe </name> 
-      <srom_file>@IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/probe.rom</srom_file>
-      <calibration_file>@IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/bayonetCalibration.xml</calibration_file>
+      <srom_file>@IGSTK_SOURCE_DIR@/Testing/Data/Input/probe.rom</srom_file>
+      <calibration_file>@IGSTK_SOURCE_DIR@/Testing/Data/Input/bayonetCalibration.xml</calibration_file>
     </tool>
 
     <tool>
       <name> US probe </name> 
       <control_box_port>2</control_box_port>      
-      <calibration_file>@IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/USCalibration.xml</calibration_file>
+      <calibration_file>@IGSTK_SOURCE_DIR@/Testing/Data/Input/USCalibration.xml</calibration_file>
     </tool>
 
 </tracking_system>
