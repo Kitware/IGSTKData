@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ 
+<tracking_system type = "micron">
+
+    <refresh_rate> 20 </refresh_rate>
+    
+    <camera_calibration_directory>
+         @IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/CalibrationFiles
+    </camera_calibration_directory>
+    
+    <initialization_file> 
+      @IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/MicronTracker.ini     
+    </initialization_file>
+    
+    <templates_directory> 
+      @IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/Markers     
+    </templates_directory>
+    
+    <tool usage="reference">
+      <name> referenceMarker </name> 
+    </tool>
+
+    <tool>
+      <name> bayonetProbe </name> 
+      <marker_name> t1 </marker_name> 
+      <calibration_file>@IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/bayonetCalibration.xml</calibration_file>
+    </tool>
+
+    <tool>
+      <name> usProbe </name> 
+      <marker_name> t2 </marker_name> 
+      <calibration_file>@IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/USCalibration.xml</calibration_file>
+    </tool>
+
+</tracking_system>
