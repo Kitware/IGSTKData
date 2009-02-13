@@ -29,15 +29,15 @@
     <refresh_rate> 20 </refresh_rate>
     
     <camera_calibration_directory>
-         @IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/CalibrationFiles
+         @IGSTK_SOURCE_DIR@/Testing/Data/Input/CalibrationFiles
     </camera_calibration_directory>
     
     <initialization_file> 
-      @IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/MicronTracker.ini     
+      @IGSTK_SOURCE_DIR@/Testing/Data/Input/MicronTracker.ini     
     </initialization_file>
     
     <templates_directory> 
-      @IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/Markers     
+      @IGSTK_SOURCE_DIR@/Testing/Data/Input/Markers     
     </templates_directory>
     
     <tool usage="reference">
@@ -47,13 +47,13 @@
     <tool>
       <name> bayonetProbe </name> 
       <marker_name> t1 </marker_name> 
-      <calibration_file>@IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/bayonetCalibration.xml</calibration_file>
+      <calibration_file>@IGSTK_SOURCE_DIR@/Testing/Data/Input/bayonetCalibration.xml</calibration_file>
     </tool>
 
     <tool>
       <name> usProbe </name> 
       <marker_name> t2 </marker_name> 
-      <calibration_file>@IGSTKSandbox_SOURCE_DIR@/Testing/Data/Input/USCalibration.xml</calibration_file>
+      <calibration_file>@IGSTK_SOURCE_DIR@/Testing/Data/Input/USCalibration.xml</calibration_file>
     </tool>
 
 </tracking_system>
