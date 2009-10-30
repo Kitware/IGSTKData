@@ -23,13 +23,9 @@
       Thursday July 4 12:00:00 1776
   </computation_date>
   
-  <transformation>
+  <transformation estimation_error="0.5">
       0 0 0 1 -70.0 0.0 20.0
   </transformation>
-
-  <estimation_error>
-      0.5 
-  </estimation_error>
 
 </precomputed_transform>
 
